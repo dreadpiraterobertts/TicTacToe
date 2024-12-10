@@ -146,6 +146,7 @@ restart.addEventListener('click',()=>{
             cells[i].innerHTML = gameState[i]
     }
     msg.innerHTML = ""
+    current.innerHTML = "X"
 })
 
 })()
